@@ -1,26 +1,6 @@
 # Recommended Procedure for Establishing a Repository Using the Core Repository Systems
 *Responsibilities of the user group establishing the repository, roughly divided by the phases of building the repository*
 
-## Abbreviations
-
-| Abbreviation | Meaning |
-| --- | --- |
-| **AAI** | Authentication and Authorisation Infrastructure — here always the EOSC AAI, the federated login the NRP repositories use |
-| **CCMM** | Czech Core Metadata Model — the core metadata model that repositories map their metadata to for export to the NMD |
-| **CESNET** | operator of the NRP, and developer of the CESNET Invenio repository system |
-| **DOI** | Digital Object Identifier — the PID type assigned by default |
-| **EOSC** | European Open Science Cloud |
-| **EOSC CZ** | the Czech national initiative implementing the EOSC |
-| **JSON** | JavaScript Object Notation — the preferred format for handing over sample data |
-| **L1** | first-level user support, i.e. the front line answering end users' questions |
-| **MŠMT** | Ministerstvo školství, mládeže a tělovýchovy — the Czech Ministry of Education, Youth and Sports |
-| **NCR** | National Catalogue of Repositories (Národní katalog repozitářů, NKR) |
-| **NMD** | National Metadata Directory (Národní metadatový adresář, NMA) |
-| **NRP** | National Repository Platform (Národní repozitářová platforma) |
-| **PID** | persistent identifier |
-| **UI** | user interface |
-
-## Procedure
 
 | # | Task | Docs/Action |
 | --- | --- | --- |
@@ -64,3 +44,22 @@
 | 4.2 | Sign the contract with the NRP operator and update the repository record in the NCR | |
 | 4.3 | Provide L1 user support for end users | |
 | 4.4 | **Milestone:** The NRP operator makes the production repository instance available and hands it over to the repository administrator. | |
+
+## Abbreviations
+
+| Abbreviation | Meaning |
+| --- | --- |
+| **AAI** | Authentication and Authorisation Infrastructure — here always the EOSC AAI, the federated login the NRP repositories use |
+| **CCMM** | Czech Core Metadata Model — the core metadata model that repositories map their metadata to for export to the NMD |
+| **CESNET** | operator of the NRP, and developer of the CESNET Invenio repository system |
+| **DOI** | Digital Object Identifier — the PID type assigned by default |
+| **EOSC** | European Open Science Cloud |
+| **EOSC CZ** | the Czech national initiative implementing the EOSC |
+| **JSON** | JavaScript Object Notation — the preferred format for handing over sample data |
+| **L1** | first-level user support, i.e. the front line answering end users' questions |
+| **MŠMT** | Ministerstvo školství, mládeže a tělovýchovy — the Czech Ministry of Education, Youth and Sports |
+| **NCR** | National Catalogue of Repositories (Národní katalog repozitářů, NKR) |
+| **NMD** | National Metadata Directory (Národní metadatový adresář, NMA) |
+| **NRP** | National Repository Platform (Národní repozitářová platforma) |
+| **PID** | persistent identifier |
+| **UI** | user interface |

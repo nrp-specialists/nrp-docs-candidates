@@ -4,8 +4,8 @@
 
 ## 1. Establishing a repository using the standard repository systems
 *Responsibilities of the user group establishing the repository*
-1. Establish the role of repository administrator – partner of the infrastructure operator, responsible for the data and the settings, informed about operational events, collaborates with the cybersecurity team.
-1. Establish the role of data curator – rules for the stored data, decisions on specific datasets, metadata harmonisation, interoperability with the National Metadata Directory (NMD).
+1. Establish the role of repository administrator.
+1. Establish the role of data curator.
 1. Define the domain-specific metadata profiles (in collaboration with IPs CARDS and the specialists). For more complex models, ensure implementation capacity on your own side.
 1. Define the metadata schema elements exported to the NMD (mapping to CCMM).
 1. Determine the list of licences available in the data deposition process.
@@ -19,59 +19,13 @@
 1. Provide L1 user support for end users.
 1. Submit information to the National Catalogue of Repositories (NKR) – registration and updates (ideally automated via OAI-PMH or an API).
 
-### Operational checklist for standard repositories
-
-*Source: `Checklist_invenio.xlsx` (currently an internal document of the NRP repository specialists)*
-
-#### Phase 1: Preparation
-1. Request a repository (contact form).
-1. Hold an introductory consultation with the NRP repository specialists.
-1. Draw up a list of prioritised requirements for the system (MUST/SHOULD/COULD/WON'T HAVE).
-1. Hold follow-up consultations with the repository specialists and other NRP teams.
-1. [Milestone] Select a repository system and create a record for the repository in the NKR.
-
-#### Phase 2: Specification
-1. Determine the controlled vocabularies used in the repository (preferred format: turtle .ttl).
-1. Specify which PIDs the repository will assign and how (by default a button in the UI assigns a DOI).
-1. Hand over sample data and agree the structure the data must have for easy import (preferably JSON).
-1. Specify the visual identity (logo, colour scheme, repository name).
-1. Define the communities and the rules for assigning users to them (community owner, membership and deposition policy).
-1. Describe the UI requirements: browse, search, record display, home page, repository administration, deposition form, about page, other.
-1. State the required publicity and acknowledgment (EU, MŠMT, EOSC CZ logos).
-1. Supply the introductory texts about the repository and specify the external links.
-1. State the recommended citation format for the repository in a visible place.
-1. Determine the metrics the user group wants to track in order to evaluate the repository.
-1. Select the repository mode in terms of its establishing entity; confirm acceptance of the NRP Repository Terms of Service and of the rules for establishing repositories in the NRP.
-1. [Milestone] Agree the specification with the repository system operator, including the division of responsibility for development.
-
-#### Phase 3: Development
-1. Create a public repository (GitHub) with the code for the test/production repository instance.
-1. Implement the specified repository features: metadata profiles, controlled vocabularies, workflows, groups/roles, AAI, communities/collections, UI, visual design, etc.
-1. Ask the NRP operator to prepare a contract.
-1. Prepare a sufficiently large data sample for the initial/test import.
-1. Accept the user interface mockup.
-1. Test the released repository prototypes and give feedback.
-1. Map non-CCMM and extended-CCMM profiles to CCMM for export to the NMD (preferably XSLT).
-1. Write the deposition licence.
-1. Record the repository administrator and the data curator in the NKR.
-1. [Milestone] Confirm the final prototype.
-
-#### Phase 4: Going live
-
-1. Carry out user testing.
-1. Sign the contract with the NRP operator.
-1. [Milestone] The NRP operator makes the repository available and hands it over to the establishing entity.
-1. Inform the user group and the public about the launch of the repository.
-
----
-
-## 2. Establishing a repository on NRP resources without the standard repository systems
+## 2. Establishing a Repository Operated on NRP Resources Without Using Core Repository Systems
 
 **The NRP provides:** the environment for data storage and running applications (S3 + Kubernetes), documentation and consultations.
 
 **The repository administrator must ensure everything from case 1 and in addition:**
 
-1. All items from the administrator's responsibilities when using the standard systems (see chapter 1 above).
+1. All items from the administrator's responsibilities when using the core systems (see chapter 1 above).
 1. Installation and operation of the repository and the corresponding software infrastructure (an alternative repository system) within the NRP environment.
 1. Deployment of domain-specific metadata profiles and their registration, metadata harmonisation, interoperability with the NMD.
 1. Selection and implementation of persistent identifier assignment from the supported types, configuration of the assigned ranges.
@@ -89,9 +43,7 @@
 1. Operational monitoring.
 1. Provision of sufficient personnel capacity (system administrators) for stable operation.
 
----
-
-## 3. Integration of an existing independently operated repository into the NRP/NDI
+## 3. Integration of an Existing Independently Operated Repository into the NRP
 
 **The administrator bears full responsibility** for operation, from hardware to the repository service itself.
 

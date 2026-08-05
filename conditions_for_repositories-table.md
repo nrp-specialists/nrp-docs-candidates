@@ -1,8 +1,4 @@
-# Conditions for Creating and Modifying Repositories in the NRP
-
-Sources:
-- [Conditions for Creating New and Modifying Existing Domain Repositories in the National Repository Platform (v3.4)](https://docs.nrp.eosc.cz/en/docs/repo_admins/operating-repositories-in-the-nrp/conditions-for-creating-repositories)
-- `Checklist_invenio.xlsx` (currently an internal document of the NRP repository specialists)
+# Recommended Procedure for Creating Repositories in the NRP
 
 ## 1. Establishing a repository using the standard repository systems
 *Responsibilities of the user group establishing the repository, roughly divided by the phases of building the repository*

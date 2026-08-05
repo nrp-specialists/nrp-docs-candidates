@@ -5,13 +5,13 @@
 
 | # | Task | Docs/Action |
 | --- | --- | --- |
-| **1.1** | **Preparation** | |
+| **1.1** | **PREPARATION** | |
 | 1.1.1 | Request a repository | send request [CZ](https://www.eosc.cz/sluzby/ukladani/repozitare-v-nrp/zalozeni-repozitare-v-nrp) \| [EN](https://www.eosc.cz/en/services/data-storage/repositories-in-nrp/creating-repositories-in-the-nrp)|
 | 1.1.2 | Introductory consultation with the NRP repository specialists | outline [CZ/EN](https://researchinfracz.sharepoint.com/:w:/s/NRP/IQB7Q4Aa4FXBQqIRDzMzrTB8AVvfrzZ_-uTDuOYBTd3VriQ?e=dZgIxY) |
 | 1.1.3 | List of prioritised requirements for a repository | template [EN](https://researchinfracz.sharepoint.com/:x:/s/NRP/IQAdSySSl_F8SqNlLayfHxVcAeS_ia9ha84DjckegRkb-yI?e=C6PSq6) |
 | 1.1.4 | Follow-up consultations with the repository specialists and other NRP teams | |
 | 1.1.5 | **Milestone:** Select a repository system and create a record for the repository in the NCR. | |
-| **1.2** | **Specification** | |
+| **1.2** | **SPECIFICATION** | |
 | 1.2.1 | Define the domain-specific metadata profiles; for more complex models, secure implementation capacity on your own side | docs [EN](https://nrp-cz.github.io/docs/customize/model_backend/model) |
 | 1.2.2 | Define the metadata schema elements exported to the NMD (mapping to CCMM) | |
 | 1.2.3 | Determine the controlled vocabularies used in the repository | |
@@ -26,7 +26,7 @@
 | 1.2.12 | Select the repository mode in terms of its establishing entity; confirm acceptance of the NRP Terms of Service and of the Rules for Establishing Repositories in the NRP | 1. NRP Terms of Service [CZ](https://www.eosc.cz/media/4130969/p1_pp_repozitare_nrp.pdf) <br />2. Rules for Establishing Repositories in the NRP [EN](https://docs.nrp.eosc.cz/en/docs/repo_admins/operating-repositories-in-the-nrp/conditions-for-creating-repositories)|
 | 1.2.13 | Determine the metrics the user group wants to track in order to evaluate the repository | |
 | 1.2.14 | **Milestone:** Agree the specification with the repository system operator, including the division of responsibility for development. | |
-| **1.3** | **Development** | |
+| **1.3** | **DEVELOPMENT** | |
 | 1.3.1 | Implement the specified repository features: metadata profiles, controlled vocabularies, workflows, groups/roles, AAI, communities/collections, UI, visual design, etc. | |
 | 1.3.2 | Create a public repository (GitHub) with the code for the test/production repository instance | |
 | 1.3.3 | Ask the NRP operator to prepare a contract | via repository specialists |
@@ -40,7 +40,7 @@
 | 1.3.11 | Establish the role of data curator and record it in the NCR | |
 | 1.3.12 | Create user documentation for the repository | |
 | 1.3.13 | **Milestone:** Confirm the final repository prototype. | |
-| **1.4** | **Going live** | |
+| **1.4** | **GOING LIVE** | |
 | 1.4.1 | Carry out user testing | |
 | 1.4.2 | Sign the contract with the NRP operator and update the repository record in the NCR | |
 | 1.4.3 | Provide L1 user support for end users | |

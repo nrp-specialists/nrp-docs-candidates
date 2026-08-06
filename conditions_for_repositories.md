@@ -2,11 +2,12 @@
 
 *Source: [Conditions for Creating New and Modifying Existing Domain Repositories in the National Repository Platform (v3.4)](https://docs.nrp.eosc.cz/en/docs/repo_admins/operating-repositories-in-the-nrp/conditions-for-creating-repositories)*
 
-## 1. Establishing a repository using the standard repository systems
+## 1. Establishing a Repository Using Core Repository Systems
+
 *Responsibilities of the user group establishing the repository*
 1. Establish the role of repository administrator.
 1. Establish the role of data curator.
-1. Define the domain-specific metadata profiles (in collaboration with IPs CARDS and the specialists). For more complex models, ensure implementation capacity on your own side.
+1. Define the domain-specific metadata profiles. For more complex models, secure implementation capacity on your own side.
 1. Define the metadata schema elements exported to the NMD (mapping to CCMM).
 1. Determine the list of licences available in the data deposition process.
 1. Assign a sufficiently permissive licence to record metadata (equivalent to CC0).
@@ -15,9 +16,9 @@
 1. Define the workflow for data access (from open access to an approval process).
 1. Define the roles of user groups (regular submitter, curator, approver) and link them to EOSC AAI.
 1. Create user documentation for the repository (using the prefabricated materials from the NRP).
-1. Create the repository policy – when a record is considered closed, what changes are permissible, rules for depositing data and accessing it, rules for deletion, retention periods, etc.
+1. Create the repository policy.
 1. Provide L1 user support for end users.
-1. Submit information to the National Catalogue of Repositories (NKR) – registration and updates (ideally automated via OAI-PMH or an API).
+1. Submit information to the National Catalogue of Repositories (NKR).
 
 ## 2. Establishing a Repository Operated on NRP Resources Without Using Core Repository Systems
 
@@ -25,7 +26,7 @@
 
 **The repository administrator must ensure everything from case 1 and in addition:**
 
-1. All items from the administrator's responsibilities when using the core systems (see chapter 1 above).
+1. All items from the administrator's responsibilities when using the core systems (see scenario 1 above).
 1. Installation and operation of the repository and the corresponding software infrastructure (an alternative repository system) within the NRP environment.
 1. Deployment of domain-specific metadata profiles and their registration, metadata harmonisation, interoperability with the NMD.
 1. Selection and implementation of persistent identifier assignment from the supported types, configuration of the assigned ranges.

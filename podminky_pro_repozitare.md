@@ -3,67 +3,22 @@
 *Zdroj: [Conditions for Creating New and Modifying Existing Domain Repositories in the National Repository Platform (v3.4)](https://docs.nrp.eosc.cz/en/docs/repo_admins/operating-repositories-in-the-nrp/conditions-for-creating-repositories)*
 
 ## 1. Založení repozitáře s využitím standardních repozitářových systémů
+
 *Odpovědnosti uživatelské skupiny zřizující repozitář*
-1. Zřídit roli správce repozitáře – partner infrastrukturního operátora, odpovědnost za data a nastavení, informován o provozních událostech, spolupráce s kyberbezpečnostním týmem.
-1. Zřídit roli datového kurátora – pravidla pro ukládaná data, rozhodování o konkrétních datasetech, harmonizace metadat, interoperabilita s NMA.
-1. Definovat oborové metadatové profily (ve spolupráci s IPs CARDS a specialisty). Pro složitější modely zajistit kapacitu pro implementaci na vlastní straně.
+1. Zřídit roli správce repozitáře.
+1. Zřídit roli datového kurátora.
+1. Definovat oborové metadatové profily. Pro složitější modely zajistit kapacitu pro implementaci na vlastní straně.
 1. Definovat prvky metadatového schématu exportované do NMA (mapování na CCMM).
 1. Určit seznam licencí dostupných v procesu ukládání dat.
 1. Přiřadit metadatům záznamů dostatečně permisivní licenci (ekvivalent CC0).
 1. Určit seznam podporovaných datových formátů (může být i "jakýkoli").
 1. Definovat workflow pro ukládání dat (např. proces schvalování záznamů).
 1. Definovat workflow pro přístup k datům (od otevřeného přístupu po schvalovací proces).
-1. Definovat role uživatelských skupin (běžný vkladatel, kurátor, schvalovatel) a propojit na EOSC AAI.
-1. Vytvořit uživatelskou dokumentaci repozitáře (pomocí prefabrikátů od NRP).
-1. Vytvořit politiku repozitáře – kdy je záznam považován za uzavřený, jaké změny jsou přípustné, pravidla pro vkládání dat a přístup k nim, pravidla pro výmaz, dobu uložení atd.
+1. Definovat role uživatelských skupin (běžný vkladatel, kurátor, schvalovatel) a propojit s EOSC AAI.
+1. Vytvořit uživatelskou dokumentaci repozitáře (s využitím připravených materiálů NRP).
+1. Vytvořit politiku repozitáře.
 1. Poskytovat uživatelskou podporu (L1) pro koncové uživatele.
-1. Odesílat informace do Národního katalogu repozitářů (NKR) – registrace a aktualizace (ideálně automatizovaně přes OAI-PMH nebo API).
-
-### Provozní checklist pro standardní repozitáře
-
-*Zdroj: `Checklist_invenio.xlsx` (zatím interní dokument metodiků NRP)*
-
-#### Fáze 1: Příprava
-1. Požádat o zřízení repozitáře (kontaktní formulář).
-1. Uskutečnit úvodní konzultaci s metodiky NRP.
-1. Vytvořit seznam prioritizovaných požadavků na systém (MUST/SHOULD/COULD/WON'T HAVE).
-1. Uskutečnit navazující konzultace s metodiky a dalšími týmy NRP.
-1. [Milník] Vybrat repozitářový systém a založit záznam pro repozitář v NKR.
-
-#### Fáze 2: Specifikace
-1. Stanovit řízené slovníky používané v repozitáři (preferovaný formát: turtle .ttl).
-1. Specifikovat, jaké se budou v repozitáři přiřazovat PID a jakým způsobem (defaultně tlačítko v UI pro přidělení DOI).
-1. Předat ukázku dat a domluvit se na struktuře pro snadný import (preferovaně JSON).
-1. Specifikovat vizuální identitu (logo, barevné schéma, název repozitáře).
-1. Definovat komunity a pravidla pro zařazování uživatelů do komunit (vlastník komunity, politika členství a depozice).
-1. Popsat požadavky na UI: browse, search, zobrazení záznamů, domovská stránka, správa repozitáře, depoziční formulář, stránka o repozitáři, další.
-1. Uvést povinnou publicitu a acknowledgment (loga EU, MŠMT, EOSC CZ).
-1. Dodat úvodní texty o repozitáři a specifikovat externí odkazy.
-1. Na viditelném místě uvést doporučený formát citování repozitáře.
-1. Stanovit metriky, které chce uživatelská skupina sledovat pro hodnocení repozitáře.
-1. Zvolit režim repozitáře z hlediska zřizovatele; potvrdit souhlas s Provozními podmínkami repozitářů v NRP a s pravidly pro zřizování repozitářů v NRP.
-1. [Milník] Odsouhlasit specifikaci s provozovatelem repozitářového systému, vč. rozdělení odpovědnosti za vývoj.
-
-#### Fáze 3: Vývoj
-1. Založit veřejný repozitář (GitHub) s kódem pro testovací/produkční instanci repozitáře.
-1. Implementovat specifikované vlastnosti repozitáře: metadatové profily, řízené slovníky, workflows, skupiny/role, AAI, komunity/kolekce, UI, vizuál ad.
-1. Požádat provozovatele NRP o přípravu smlouvy.
-1. Připravit dostatečně velký vzorek dat pro prvotní/testovací import.
-1. Odsouhlasit mockup uživatelského rozhraní.
-1. Otestovat zpřístupněné prototypy repozitáře a předat zpětnou vazbu.
-1. Namapovat non-CCMM a extended-CCMM profily na CCMM pro export do NMA (preferovaně XSLT).
-1. Sepsat depoziční licenci.
-1. Zapsat správce repozitáře a datového kurátora do NKR.
-1. [Milník] Potvrdit finální prototyp.
-
-#### Fáze 4: Zveřejnění
-
-1. Provést uživatelské testování.
-1. Podepsat smlouvu s provozovatelem NRP.
-1. [Milník] Repozitář je provozovatelem NRP zpřístupněn a předán zřizovateli.
-1. Informovat uživatelskou skupinu a veřejnost o spuštění repozitáře.
-
----
+1. Odesílat informace do Národního katalogu repozitářů (NKR).
 
 ## 2. Založení repozitáře na zdrojích NRP bez využití standardních repozitářových systémů
 
@@ -89,9 +44,7 @@
 1. Provozní monitoring.
 1. Zajištění dostatečných personálních kapacit (systémoví administrátoři) pro stabilní provoz.
 
----
-
-## 3. Integrace existujícího samostatně provozovaného repozitáře do NRP/NDI
+## 3. Integrace existujícího samostatně provozovaného repozitáře do NRP
 
 **Správce má plnou odpovědnost** za provoz od hardwaru po službu repozitáře.
 

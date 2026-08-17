@@ -1,0 +1,17 @@
+Kvalita podzemních vod na Vysočině 2024 — ukázkový datový soubor
+=================================================================
+
+Toto je dummy soubor pro otestování nahrávání souborů do repozitáře
+datarepo.eosc.cz. Neobsahuje skutečná měření.
+
+datum;lokalita;vrt;pH;konduktivita_mS_m;NO3_mg_l;SO4_mg_l;Fe_mg_l
+2024-01-22;Jihlava-Pávov;VP-1042;6.9;41.3;18.7;44.2;0.12
+2024-02-19;Třebíč-Borovina;VP-1108;7.2;38.6;12.4;39.8;0.08
+2024-03-18;Havlíčkův Brod;VP-0977;6.7;46.1;24.9;51.3;0.21
+2024-04-15;Pelhřimov-Rynárec;VP-1233;7.0;35.2;9.8;33.6;0.05
+2024-05-20;Žďár nad Sázavou;VP-1051;6.8;43.7;21.5;47.9;0.17
+2024-06-17;Jihlava-Pávov;VP-1042;7.1;40.0;16.2;42.5;0.10
+
+Jednotky: konduktivita mS/m, ostatní ukazatele mg/l.
+Odběry z monitorovacích vrtů, ponorná vzorkovací pumpa.
+Zdroj metodiky: pouze ilustrativní, hodnoty jsou vygenerované.

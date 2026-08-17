@@ -2,13 +2,12 @@
 # Vložení nového záznamu do datarepo.eosc.cz pomocí `nrp-cmd`
 
 Postup pro vytvoření nepublikovaného záznamu (draftu) s připojeným souborem
-v repozitáři [datarepo.eosc.cz](https://datarepo.eosc.cz), tedy katalogovém
-repozitáři NRP pro česká vědecká data. Záznamy se zakládají podle modelu
-`datasets` v1.1.0 (CCMM).
+v datovém Catch-all repozitáři [datarepo.eosc.cz](https://datarepo.eosc.cz). 
+Záznamy se zakládají podle modelu `datasets` v1.1.0 (CCMM).
 
 Dokumentace nástroje: <https://nrp-cz.github.io/docs/userguide/commandline>
 
-V tomto adresáři jsou dva soubory, se kterými postup pracuje:
+V tomto adresáři jsou dva soubory, s nimiž postup pracuje:
 
 | soubor | co to je |
 | --- | --- |
@@ -29,8 +28,7 @@ nrp-cmd add repository https://datarepo.eosc.cz catch-all \
   --token <TOKEN> --no-launch-browser
 ```
 
-Kontrola: `nrp-cmd list repositories`. Konfigurace se ukládá do
-`~/.nrp/invenio-config.json`.
+Kontrola: `nrp-cmd list repositories`.
 
 ## 2. Metadata
 
@@ -77,7 +75,6 @@ nrp-cmd create record --repository catch-all --model datasets \
 - Soubory se uvádějí v párech `cesta` + `metadata souboru`, párů může být víc.
 - `--workflow individual` zakládá záznam mimo community; pro záznam
   v community použijte `--community <slug>`.
-- Bez souborů přidejte `--metadata-only`.
 
 Výstup příkazu uvádí `"files": {"count": 0}`, i když upload proběhl — odpověď
 se serializuje před dokončením nahrávání.
@@ -134,7 +131,7 @@ curl -s -H "Authorization: Bearer <TOKEN>" \
   "https://datarepo.eosc.cz/api/requests/applicable?topic=record:<ID>" | jq .
 ```
 
-Publikace registruje DOI a zveřejní záznam, je tedy nevratná.
+Publikování registruje DOI a zveřejní záznam, je tedy nevratná.
 
 ## Známé potíže
 

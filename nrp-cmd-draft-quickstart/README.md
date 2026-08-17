@@ -131,7 +131,7 @@ curl -s -H "Authorization: Bearer <TOKEN>" \
   "https://datarepo.eosc.cz/api/requests/applicable?topic=record:<ID>" | jq .
 ```
 
-Publikování registruje DOI a zveřejní záznam, je tedy nevratná.
+Publikování registruje DOI a zveřejní záznam, je tedy nevratné.
 
 ## Známé potíže
 

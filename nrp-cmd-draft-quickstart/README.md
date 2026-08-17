@@ -40,10 +40,7 @@ Povinné minimum:
 | `metadata.publication_date` | |
 | `metadata.creators` | |
 | `metadata.resource_type` | pro datovou sadu `{"id": "c_ddb1"}` |
-| `metadata.publisher` | jednoduchý string, **nutný pro registraci DOI** |
-
-`metadata.publisher` schéma neuvádí jako povinný, draft se bez něj založí, ale 
-s evidovanou chybou, proto je lepší vyplnit údaj hned.
+| `metadata.publisher` | textový řetězec |
 
 Slovníková pole se zadávají jako `{"id": "…"}`. Když ID neodpovídá slovníku,
 API vrátí `400 Invalid value <hodnota>` a skončí na první chybě. Konvence se

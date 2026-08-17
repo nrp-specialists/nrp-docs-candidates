@@ -28,6 +28,7 @@ nrp-cmd add repository https://datarepo.eosc.cz catch-all \
   --token <TOKEN> --no-launch-browser
 ```
 
+`catch-all` je zde alias repozitáře, může to být libovolný řetězec. 
 Kontrola: `nrp-cmd list repositories`.
 
 ## 2. Metadata
